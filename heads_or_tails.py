@@ -1,5 +1,9 @@
 import random
 
+print('Who are you?')
+val = str(input())
+print(f'Hello, {val}!')
+
 
 coin_flip = ['heads', 'tails']
 
