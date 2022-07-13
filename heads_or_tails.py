@@ -23,10 +23,10 @@ for i in range(0, 3):
     print(f'Round 1: {result}')
 
 
-print(f'Heads: {head}')
-print(f'Tails: {tails}')
+print(f'Heads: {head_num}')
+print(f'Tails: {tails_num}')
 
-if head*head_num > tails*tails_num:
+if head_num > tails_num:
   print(f'{val} won!')
 else:
   print(f'{val} lost!')
